@@ -1,6 +1,7 @@
 // アプリケーション作成用のモジュールを読み込み
 const { app, BrowserWindow } = require("electron");
 const path = require("path");
+const { LiveChat } = require("youtube-chat");
 
 // メインウィンドウ
 let mainWindow;
