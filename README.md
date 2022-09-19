@@ -12,6 +12,22 @@
 ### [Vue+TypeScript]
 [参考](https://qiita.com/nrslib/items/be90cc19fa3122266fd7#%E5%B0%8F%E3%81%95%E3%81%AA%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88) vue.js + typescript = vue.ts ことはじめ
 
+[参考](https://miyablo.sakura.ne.jp/home/development/vue-typescript/)【Vue.js】Vue + typescript について (vue-class-component, vue-property-decorator って何？)
+
+[参考](https://note.com/shunex/n/n50cd8e1ec4fe) Vue3でもClass Style Componentが使えそう<br>
+    Vue3から@Componentは@Optionsに変わった
+
+[参考](https://reffect.co.jp/vue/vue3-typescript) 簡単な例で始めるVue3でTypeScript入門
+
+[参考](https://www.ragate.co.jp/blog/articles/8703) CompositionAPI VS ClassComponent！Vue3で推奨されたCompositionAPIについて実装経験者が深掘りします<br>
+ClassComponent<br>
+* CompositionAPI と比較して処理のオーバーヘッドが多いためパフォーマンスは Vue3 に劣る
+* decorators で宣言された Props を参照する方法がないため、this.$props使用時に TS サポートが無効になる
+* this によるスコープを要するので、コンストラクターに依存してしまう（コンストラクターによるブラックボックスな処理の存在を前提として実装）
+* Vue3 とは別で独自にメンテナンスされており、長期開発を見据えると少々懸念あり
+<br>結論：Vue3の新規プロジェクトでは CompositionAPI を採用すべし
+
+
 ### 開発環境の構築
 1. Node.jsのインストール<br>
 まずは「[Node.js](https://nodejs.org/ja/)」をインストールしましょう。Node.jsをインストールすれば、npmコマンドが使用可能となります。<br>
