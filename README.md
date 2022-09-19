@@ -1,9 +1,26 @@
 # chatpilot
 
 ## 開発者へ
-このアプリケーションは、ElectronとVue3 + TypeScriptで構成されています<br>
+このアプリケーションは、ElectronとVue2 + TypeScriptで構成されています<br>
 [参考](https://www.suzu6.net/posts/260-electron-vue-develop/) ElectronとVue3 + TypeScriptでデスクトップアプリを作る<br>
 [参考](https://future-architect.github.io/articles/20210107/#proxy%E7%92%B0%E5%A2%83%E4%B8%8B%E3%81%A7%E3%81%AEElectron%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E9%96%8B%E7%99%BA) Electronの使い方 Web開発の技術でデスクトップアプリを作ろう
+
+Vueプロジェクトの構成は以下の通り
+<pre>
+Vue CLI v5.0.8
+? Please pick a preset: Manually select features
+? Check the features needed for your project: Babel, TS, Router, Vuex, CSS Pre-processors, Linter, Unit
+? Choose a version of Vue.js that you want to start the project with 2.x
+? Use class-style component syntax? Yes
+? Use Babel alongside TypeScript (required for modern mode, auto-detected polyfills, transpiling JSX)? Yes
+? Use history mode for router? (Requires proper server setup for index fallback in production) Yes
+? Pick a CSS pre-processor (PostCSS, Autoprefixer and CSS Modules are supported by default): Sass/SCSS (with dart-sass)
+? Pick a linter / formatter config: Prettier
+? Pick additional lint features: Lint on save
+? Pick a unit testing solution: Jest
+? Where do you prefer placing config for Babel, ESLint, etc.? In dedicated config files
+? Save this as a preset for future projects? No
+</pre>
 
 ### [Electron](https://www.electronjs.org/)<br>
 [参考](https://ics.media/entry/7298/) 最新版で学ぶElectron入門<br>
