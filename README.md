@@ -34,10 +34,7 @@
 `npm run electron:serve`
 
 以下のコマンドを実行してビルドします
-* Windows<br>
-`npm run build-win`
-* macOS(darwin)<br>
-`npm run build-mac`
+`npm run electron:build`
 
 ### Youtubeのコメントを取得する技術
 オープンソースで実装してくださっている偉大な先駆者がいらっしゃたので、利用させていだだきます<br>
