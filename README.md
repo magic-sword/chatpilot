@@ -9,6 +9,9 @@
 [参考](https://ics.media/entry/7298/) 最新版で学ぶElectron入門<br>
 [参考](https://blog.katsubemakito.net/nodejs/electron/1st) \[Electron\] Webの技術だけでWindowsやmacOS用のアプリを作成する electron-builder編
 
+### [Vue+TypeScript]
+[参考](https://reffect.co.jp/vue/vue3-typescript#vue) 簡単な例で始めるVue3でTypeScript入門
+
 ### 開発環境の構築
 1. Node.jsのインストール<br>
 まずは「[Node.js](https://nodejs.org/ja/)」をインストールしましょう。Node.jsをインストールすれば、npmコマンドが使用可能となります。<br>
