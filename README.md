@@ -2,7 +2,7 @@
 
 ## 開発者へ
 このアプリケーションは、ElectronとVue3 + TypeScriptで構成されています<br>
-[参考](https://www.suzu6.net/posts/260-electron-vue-develop/) ElectronとVue3 + TypeScriptでデスクトップアプリを作る
+[参考](https://www.suzu6.net/posts/260-electron-vue-develop/) ElectronとVue3 + TypeScriptでデスクトップアプリを作る<br>
 [参考](https://future-architect.github.io/articles/20210107/#proxy%E7%92%B0%E5%A2%83%E4%B8%8B%E3%81%A7%E3%81%AEElectron%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E9%96%8B%E7%99%BA) Electronの使い方 Web開発の技術でデスクトップアプリを作ろう
 
 ### [Electron](https://www.electronjs.org/)<br>
@@ -31,9 +31,8 @@
 
 4. 始めましょう！<br>
 以下のコマンドを実行して、アプリケーションの実行、デバッグが出来ます<br>
-`npm run electron:serve`
-
-以下のコマンドを実行してビルドします
+`npm run electron:serve`<br>
+以下のコマンドを実行してビルドします<br>
 `npm run electron:build`
 
 ### Youtubeのコメントを取得する技術
