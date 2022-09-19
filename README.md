@@ -78,3 +78,15 @@ ClassComponent<br>
 
 YouTubeDataAPIは1日あたりの使用量が決められていて、1日12時間とか配信してたら制限を超えてしまうらしい
 そのため、APIを使わずに取得する
+
+### トラブルシューティング
+#### \[eslint\]のエラーが出た場合
+書式統一チェックツールが違反を検知し、エラーを出しています<br>
+
+Microsoftの[ESLint拡張機能](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)をVS Codeにインストールしてください。<br>
+これによりeslintのエラーがVS Codeで表示されるだけでなく、保存時に自動整形されるようになるはずです
+
+[参考](https://www.wakuwakubank.com/posts/716-javascript-eslint-prettier/) ESLintとPrettierの使い方(静的検証, スタイル統一)
+
+[参考](https://marsquai.com/745ca65e-e38b-4a8e-8d59-55421be50f7e/1f67fdab-8e00-4ae1-a1b9-077d5a30a5d6/744a0641-0220-4e99-86c5-efcb305638b9/) 【TypeScript】VSCodeでESLintによる自動フォーマット設定
+
