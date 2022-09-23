@@ -7,15 +7,17 @@ module.exports = defineConfig({
     electronBuilder: {
       builderOptions: {
         win: {
-          icon: 'src/assets/chatpilot-logo.png',
+          icon: "src/assets/chatpilot-logo.png",
           target: [
             {
-              target: 'portable', // 'zip', 'nsis', 'portable'
-              arch: ['x64'], // 'x64', 'ia32'
+              target: "portable", // 'zip', 'nsis', 'portable'
+              arch: ["x64"], // 'x64', 'ia32'
             },
           ],
         },
-      }
-    }
-  }
+      },
+      // プリロードスクリプトをビルドに追加
+      preload: "src/preload.ts",
+    },
+  },
 });
